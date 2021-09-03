@@ -1,0 +1,286 @@
+body {
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: skyblue;
+}
+
+
+#hero {
+    /* background: url('/assets/bg.jpg') no-repeat;*/
+     background-size: cover;
+     background-position: 0 60%;
+}
+#button-color{
+  color: white;
+
+}
+.nav-link{
+  color: white;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar {
+    width: 100%;
+    background: none !important;
+
+    @media(max-width: 34em){
+        background: black !important;
+
+    }
+
+    .navbar-toggler{
+      cursor:pointer;
+      outline:0;
+    }
+    /*more to put here!! */
+    .nav-link{
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .nav-item {
+      padding: 0 1rem;
+      @media(max-width: 34em){
+        padding: 0;
+      }
+      .nav-link{
+          @media(max-width: 34em){
+            font-weight: normal;
+            color: #fff !important;
+          }
+      }
+    }
+}
+.img{
+  width: 80%;
+}
+
+
+h1 {
+  font-weight: bold
+  font-size: 3.5em;
+  /*text-align: center;*/
+}
+h4 {
+  margin-bottom: 0;
+}
+#site_info{
+  height: 200px;
+  width: 400px;
+  display: block;
+}
+/*#site_info > div > p{*/
+img{
+  float: left;
+  padding-top: 0;
+  margin-top: 0;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.hol_image {
+  display: flex;
+}
+
+#hol_display {
+  display: flex;
+}
+
+#intro {
+  text-align: center;
+  float : left;
+}
+#extra {
+  float: clear;
+}
+#hol_picked{
+  padding: 0 0 10px 0;
+
+}
+#country1 {
+  height: 300px;
+  width: 300px;
+}
+#country2 {
+  height: 300px;
+  width: 300px;
+}
+
+img#loc_pic1 {
+  padding: 10px;
+}
+
+img#loc_pic2 {
+  padding: 10px;
+}
+
+img#loc_pic3 {
+  padding: 10px;
+}
+
+img#loc_pic4 {
+  padding: 10px;
+}
+
+img#loc_pic5 {
+  padding: 10px;
+}
+
+img#loc_pic6 {
+  padding: 10px;
+}
+#booking_form{
+padding-left: 60px;
+
+}
+
+/*#map1_1{
+  height: 800px;
+  width: 800px;
+}*/
+#map_desktop {
+  /*opacity: 0;
+  max-height: 0;
+  overflow: hidden;*/
+  height: 0px;
+  width: 0px;
+  display: none;
+
+}
+#map1{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+#map2{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+
+#map3{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+#map4{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+#map5{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+
+
+
+#country3 {
+  height: 300px;
+  width: 300px;
+}
+#country4 {
+  height: 300px;
+  width: 300px;
+}
+#country5 {
+  height: 300px;
+  width: 300px;
+}
+@media (max-width: 600px) {
+    p{
+      /*color: #bada55;*/
+      color: white;
+      font-size: 0.8rem;
+      padding-left: 10px;
+    }
+    img{
+      padding-left: 10px;
+      width: 98%;
+    }
+    .hol_image{
+      flex-direction: column;
+
+    }
+    #hol_display{
+      flex-direction: column;
+    }
+    p#site_info{
+
+      float: right;
+      padding-left: 70px;
+      margin-left: 70px;
+      padding-bottom: 5px;
+      height: 30%;
+    }
+
+    /*add this rule to css of rev8 */
+    #button1 , #button2, #button3, #button4, #button5 {
+      padding-top: 10px;
+      padding-left: 10px;
+
+    }
+
+}
+@media (min-width: 601px){
+  p{
+      color: black;
+      font-size: 1em;
+      text-align: left;
+      padding: 10px 0 0 0;
+      /*max-width: 70%;*/
+  }
+  img{
+        /*padding: 0 0 0 40%;*/
+  }
+  .hol_image {
+    flex-direction: row;
+
+  }
+  #hol_display{
+    flex-direction: row;
+  }
+  #map1{
+    margin-left: 150px;
+    padding=left: 150px;
+  }
+  #booking_form{
+    margin-left: 150px;
+  }
+
+}
+
+
+
+/*.reveal-if-active {*/
+
+
+/*input[type="radio"]:checked ~ .reveal-if-active,*/
+/*input[type="checkbox"]:checked ~ .reveal-if-active {*/
+
+/*input[type="radio"]:checked ~ #map1_1,*/
+/*input[type="checkbox"]:checked ~ #map1_1 {*/
+/*input[type="radio"]:checked ~ #map1_1{
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :(
+  overflow: visible;
+}*/
+
+/*.reveal-if-active */
+/*#map1_1 {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: scale(0.8);
+  transition: 0.5s;
+  /*input[type="radio"]:checked ~ &,
+  input[type="checkbox"]:checked ~ & {
+  input[type="radio"]:checked ~ &{
+
+    opacity: 1;
+    max-height: 100px;
+    overflow: visible;
+    padding: 10px 20px;
+    transform: scale(1);
+  }
+}
+*/
