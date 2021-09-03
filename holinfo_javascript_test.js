@@ -717,17 +717,23 @@
            text = document.createTextNode("COUNTRY : " + place + "<br> latitude= " +  loc_coords_lat + "  longtitude = " + loc_coords_lng + " Holiday type: " + type_hol + " info: " + type_info);
            tag.setAttribute('id', 'loc_info' + attr_num);
            //var newRadioButton= document.createElement(input(type='radio',name='radio',value='1st'));
+         
+           var country_div_el = document.getElementById("country" + attr_num);//added at 13:35 3rd Sept 2021 this is the country div number in loop the new childred radio and label will be added to
+         
            radioYes = document.createElement("input");
            radioYes.setAttribute("type", "radio");
            radioYes.setAttribute("name", "mapselect");
            radioYes.setAttribute("value", place);
            radioYes.setAttribute('id', 'radio_dot' + attr_num);
            var radio_div = "containerDiv"+ i;
+           country_div_el.appendChild(radioYes); //added radio button to country div
+           
+         
            console.log("GENERATED RADIO BUTTON WILL HAVE DIV: " + radio_div);
            var lblselect = document.createElement("label");// https://stackoverflow.com/questions/118693/how-do-you-dynamically-create-a-radio-button-in-javascript-that-works-in-all-bro
            lblselect.innerHTML = "Click to generate map!!";
            lblselect.setAttribute('id', 'label_dot' + attr_num);
-
+           country_div_el.appendChild(lblselect); //added the radio button label to country div 
 
            //radioYes.setAttribute("onclick", "alert('hello');"); worls!! trying with variable below
            //radioYes.setAttribute("onclick","alert_str('"+place+"');"); works calls functiom to call alert dialogue with country name
