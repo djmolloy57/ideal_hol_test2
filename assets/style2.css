@@ -186,7 +186,8 @@ padding-left: 60px;
   height: 300px;
   width: 300px;
 }
-@media (max-width: 600px) {
+/*@media (max-width: 600px) { original setting commented out 3rd Sept at 9.30 see new media query below */
+*@media (max-width: 480px) {
     p{
       /*color: #bada55;*/
       color: white;
