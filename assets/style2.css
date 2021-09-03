@@ -243,36 +243,14 @@ For Hi-Res Laptops @media (max-width:1280px){}
 
 }
 
-@media (min-width: 601px){
-  p{
-      color: black;
-      font-size: 1em;
-      text-align: left;
-      padding: 10px 0 0 0;
-      /*max-width: 70%;*/
-  }
-  img{
-        /*padding: 0 0 0 40%;*/
-  }
-  .hol_image {
-    flex-direction: row;
 
-  }
-  #hol_display{
-    flex-direction: row;
-  }
-  #map1{
-    margin-left: 150px;
-    padding=left: 150px;
-  }
-  #booking_form{
-    margin-left: 150px;
-  }
-
-}
 /*ipad media query added 13:40 3rd Sept 2020 */
-@media only screen
+/*
     and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+*/
+@media only screen
+    and (min-device-width: 601px)
     and (max-device-width: 1024px)
     and (-webkit-min-device-pixel-ratio: 1) {
 
@@ -358,6 +336,33 @@ For Hi-Res Laptops @media (max-width:1280px){}
     padding-left: 10px;
     margin-right: 80px;
     padding-right: 80px;
+  }
+
+}
+@media (min-width: 1025px){
+  p{
+      color: black;
+      font-size: 1em;
+      text-align: left;
+      padding: 10px 0 0 0;
+      /*max-width: 70%;*/
+  }
+  img{
+        /*padding: 0 0 0 40%;*/
+  }
+  .hol_image {
+    flex-direction: row;
+
+  }
+  #hol_display{
+    flex-direction: row;
+  }
+  #map1{
+    margin-left: 150px;
+    padding=left: 150px;
+  }
+  #booking_form{
+    margin-left: 150px;
   }
 
 }
