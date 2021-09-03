@@ -270,6 +270,99 @@ For Hi-Res Laptops @media (max-width:1280px){}
   }
 
 }
+/*ipad media query added 13:40 3rd Sept 2020 */
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+
+  body{
+    background-color: green;
+  }
+  p{
+
+      font-size: 0.8em;
+      text-align: left;
+      padding: 10px 0 0 0;
+      /*max-width: 70%;*/
+  }
+  #loc_pic5 {
+     padding-top: 10px;
+     border-color: red;
+     border-style: dashed;
+  }
+  #map_desktop {
+    /*opacity: 0;
+    max-height: 0;
+    overflow: hidden;*/
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 60%;
+    width: 60%;
+
+
+  }
+  #label_dot1, #label_dot2, #label_dot3, #label_dot4, #label_dot5 {
+    color: orange;
+    margin-top: 5px;
+    border-color: red;
+
+  }
+  #label_dot2 {
+    padding-top: 5px;
+    /*margin-bottom: 25px;*/
+  }
+  #country1,#country2,#country3 ,#country4, #country5 {
+    border-style: dashed;
+    border-color: black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    height: 350px;
+  }
+
+  #booking_form{
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  img{
+    padding-left: 10px;
+    width: 220;
+    height: 120;
+  }
+  #site_info{
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    height: 120px;
+
+  }
+  #select_hol{
+    border-style: dashed;
+    border-color: black;
+    padding-top: 0;
+    margin-bottom: 0;
+
+  }
+  h1, h4{
+    font-size: 98%;
+  }
+  .hero-content{
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  #map_desktop{
+    /*padding-left: 10px;*/
+    border-style: dashed;
+    border-color: black;
+    margin-left: 0px;
+    padding-left: 10px;
+    margin-right: 80px;
+    padding-right: 80px;
+  }
+
+}
+
+
 
 
 
