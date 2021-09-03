@@ -219,6 +219,10 @@ padding-left: 60px;
       padding-left: 10px;
 
     }
+    #booking_form{
+      margin-left: 10px;
+      padding-left: 10px;
+    }
 
 }
 @media (min-width: 601px){
