@@ -180,7 +180,7 @@
             //"airlines": ["Air France","Lufthansa","RyanAir"],
             "airlines": ["Air France","Lufthansa","RyanAir"],
             "loc_radius": "1200047", //500 miles
-            "pic" : "andorra2.jpg"
+            "pic" : "assets/images/andorra2.jpg" //assets/images/croatia.jpg
           }
        ],
         "Austria": [
@@ -192,7 +192,7 @@
            //"airlines": ["Lauda Air","Lufthansa","RyanAir"],
            "airlines": ["Lauda Air","Lufthansa","RyanAir"],
            "loc_radius": "1200047", //500 miles
-           "pic" : "austria1.jpg"
+           "pic" : "assets/images/austria1.jpg"
          }
        ],
         "France": [
@@ -204,7 +204,7 @@
             //"airlines": ["Aer Lingus","Air France","RyanAir"],
             "airlines": ["Aer Lingus","Air France","RyanAir"],
             "loc_radius": "1200047", //500 miles
-            "pic" : "france1.jpg"
+            "pic" : "assets/images/france1.jpg"
         }
       ],
         "Italy": [
@@ -217,7 +217,7 @@
             //"airlines": ["Aer Lingus","Air Italia","British Airways"],
             "airlines": ["Aer Lingus","Air Italia","British Airways"],
             "loc_radius": "1200047", //500 miles
-            "pic" : "italy1.jpg"  //will need to be an array
+            "pic" : "assets/images/italy1.jpg"  //will need to be an array
           }
       ],
         "Switzerland": [
@@ -229,7 +229,7 @@
             "info": "Switzerland has world famous skiing resorts, can be expensive", //will need to be an array - Need different info each holiday type
             "airlines": ["Aer Lingus","British Airways","Swiss Air"],
             "loc_radius": "1200047", //500 miles
-            "pic" : "switzerland1.jpg"  //will need to be an array
+            "pic" : "assets/images/switzerland1.jpg"  //will need to be an array
           }
       ],
 
@@ -243,7 +243,7 @@
              "info": "South Spain has many resorts for budget holidays", //will need to be an array - Need different info each holiday type
              "airlines": ["Aer Lingus","Iberia","RyanAir"],
              "loc_radius" : "240000", //100miles
-             "pic" : "southern_spain.jpg"  //will need to be an array
+             "pic" : "assets/images/southern_spain.jpg"  //will need to be an array
            }
 
        ],
@@ -257,7 +257,7 @@
              "info": "Portual has many resorts along its beautiful coast near the famous city Lisbon", //will need to be an array - Need different info each holiday type
              "airlines": ["Aer Lingus","Tap Air","British Airways"],
              "loc_radius" : "240000", //100miles
-             "pic" : "portugal.jpg"  //will need to be an array
+             "pic" : "assets/images/portugal.jpg"  //will need to be an array
            }
 
        ],
@@ -271,7 +271,7 @@
              "info": "Southern France has many exclusive resorts for the refined traveler in Nice, Caan and Monaco", //will need to be an array - Need different info each holiday type
              "airlines": ["Aer Lingus","Air France","British Airways"],
              "loc_radius" : "240000", //100miles
-             "pic" : "southern_france.jpg"  //will need to be an array
+             "pic" : "assets/images/southern_france.jpg"  //will need to be an array
            }
 
        ],
@@ -285,7 +285,7 @@
              "info": "Southern Italy has many resorts along the Amalfi coast south of Naples", //will need to be an array - Need different info each holiday type
              "airlines": ["Aer Lingus","Air Italia","British Airways"],
              "loc_radius" : "240000", //100miles
-             "pic" : "southern_italy.jpg"  //will need to be an array
+             "pic" : "assets/images/southern_italy.jpg"  //will need to be an array
            }
 
        ],
@@ -299,7 +299,7 @@
              "info": "Croatia has many resorts along its beautiful coast near famous castle city of Debrovnic", //will need to be an array - Need different info each holiday type
              "airlines": ["Aer Lingus","RyanAir","British Airways"],
              "loc_radius" : "240000", //100miles
-             "pic" : "croatia.jpg"  //will need to be an array
+             "pic" : "assets/images/croatia.jpg"  //will need to be an array
            }
 
        ],
@@ -313,7 +313,7 @@
              "info": "Greece has many beautiful Islands with beautiful beaches and coves", //will need to be an array - Need different info each holiday type
              "airlines": ["Aer Lingus","EasyJet","British Airways"],
              "loc_radius" : "240000", //100miles
-             "pic" : "greece.jpg"  //will need to be an array
+             "pic" : "assets/images/greece.jpg"  //will need to be an array
            }
 
         ],
@@ -327,7 +327,7 @@
             "info": "Berlin city capital of Germany, large city, with famous landmarks, and underground dance culture", //will need to be an array - Need different info each holiday type
             "airlines": ["Aer Lingus","Lufthansa","British Airways"],
             "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
-            "pic" : "berlin.jpg"  //will need to be an array
+            "pic" : "assets/images/berlin.jpg"  //will need to be an array
           }
         ],
         //53.3498° N, 6.2603
@@ -340,7 +340,7 @@
             "info": "Dublin city capital of Ireland, river liffey runs through it, friendy city, with famous pubs,hotels and restaurants", //will need to be an array - Need different info each holiday type
             "airlines": ["Aer Lingus","RyanAir","British Airways"],
             "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
-            "pic" : "dublin1.jpg"  //will need to be an array
+            "pic" : "assets/images/dublin1.jpg"  //will need to be an array
           }
         ],
         //51.5074° N, 0.1278
@@ -352,7 +352,7 @@
             "info": "London city capital of England, Thames river runs through it, large city, with famous landmarks,hotels and restaurants", //will need to be an array - Need different info each holiday type
             "airlines": ["Aer Lingus","RyanAir","British Airways, EasyJet"],
             "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
-            "pic" : "london.jpg"  //will need to be an array
+            "pic" : "assets/images/london.jpg"  //will need to be an array
           }
         ],
         //48.8566° N, 2.3522
@@ -364,7 +364,7 @@
             "info": "Paris city capital of France,Saine river runs through it, large city, with famous landmarks,hotels and restaurants", //will need to be an array - Need different info each holiday type
             "airlines": ["Aer Lingus","Air France","British Airways, EasyJet"],
             "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
-            "pic" : "paris.jpg"  //will need to be an array
+            "pic" : "assets/images/paris.jpg"  //will need to be an array
           }
         ],
         //41.9028° N, 12.4964°
@@ -376,7 +376,7 @@
             "info": "Rome city capital of Italy,Tiber river runs through it, large city, with famous landmarks,hotels and restaurants", //will need to be an array - Need different info each holiday type
             "airlines": ["Aer Lingus","Air Italia","British Airways, RyanAir"],
             "loc_radius" : "12000", //5 miles remember to convert it to int when passing to google map api
-            "pic" : "rome.jpg"  //will need to be an array
+            "pic" : "assets/images/rome.jpg"  //will need to be an array
           }
         ]
 
