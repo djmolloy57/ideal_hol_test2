@@ -180,7 +180,7 @@
             //"airlines": ["Air France","Lufthansa","RyanAir"],
             "airlines": ["Air France","Lufthansa","RyanAir"],
             "loc_radius": "1200047", //500 miles
-            "pic" : "assets/images/andorra2.jpg" //assets/images/croatia.jpg  assets/images/andorra1.jpg
+            "pic" : "assets/images/andorra2.jpg" 
           }
        ],
         "Austria": [
